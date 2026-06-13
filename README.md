@@ -21,13 +21,16 @@ Examples of the default layout, a copy of the base UI:
 <img width="777" height="222" alt="image" src="https://github.com/user-attachments/assets/144beb72-accf-4707-b40c-d1fbc123692c" />
 
 
-
+# Custom Layouts
 
 Examples of what can be achieved by moving elements around, potentially improving **controller support**:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eca4b5a2-9136-4c8d-b44b-879be7db4d4d" />
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/172a4442-eb67-4936-be41-86bb35c795c5" />
+
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d095402-ee93-476c-9790-80f1103acd6b" />
+
 
 ## Disclaimer
 
@@ -41,7 +44,7 @@ Because this is an overlay, these skills are not actual buttons. They will not b
 
 ### Ranger Issues
 
-The ranger UI is particularly intricate and due to Reffect missing active pet filters, so some compromises have been made. Pet F2 skill IDs are used to check your active pet to display portraits. Because of this, whenever the F2 skill is modified, these pet checks cannot be performed. However, most of those issues have been circumvented somehow, so I would still consider it playable just fine. These issues are:
+The ranger UI is particularly intricate and due to Reffect missing active pet filters, so some compromises have been made. Pet F2 skill IDs are used to check your active pet to display portraits. Because of this, whenever the F2 skill is modified, these pet checks cannot be performed. However, most of those issues have been circumvented somehow, so I would still consider it **playable just fine**. These issues are:
 
 - There's a couple of pets that share the same F2 skills, so the portrait will be the same (Mostly Hall of Monument pets).
 - The "Guard / Avoid Combat" button is not available. This also applies to Mechanist. (You can still use F3 to recall your pet or toggle your default UI visibility to click this button).
@@ -58,9 +61,19 @@ The ranger UI is particularly intricate and due to Reffect missing active pet fi
 
 # How to use
 
-Once the pack is installed, you'll have to select the interface size that matches your current in-game interface size choice:
+Once the pack is installed, you'll have to **set the interface size that matches your current in-game interface size choice by Right clicking "Interface Normal" > Resize**:
 
-<img width="312" height="174" alt="image" src="https://github.com/user-attachments/assets/78449a9d-3a96-4963-905f-2ff45d11b56b" />
+<img width="640" height="275" alt="image" src="https://github.com/user-attachments/assets/94487424-91f8-4341-8d01-68e51d88080c" />
+<img width="859" height="88" alt="image" src="https://github.com/user-attachments/assets/0b0dfe85-6ddc-4216-ac14-31a44af21a75" />
+
+As listed, the sizes you should use are:
+
+- Small: 90%
+- Normal: 100% (Default, don't resize)
+- Large: 110%
+- Larger: 120%
+
 
 By default, all the interfaces have the original layout. If you want to customize it, it's recommended you **duplicate** the group (by right-clicking). That way, you can keep the original as a reference while editing.
-Most elements are grouped logically in a hierarchy. The big exception that will take the most time editing is the profession UI / Skills, since this one differs from class to class, they had to be unique to each one.
+Most elements are grouped logically in a hierarchy. 
+Weapon and utility hotbars are shared. Same for health and endurance orbs. The element that will take the most time customizing will be the profession UI / Skills section, since this one differs from class to class. 
