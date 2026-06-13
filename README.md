@@ -1,6 +1,13 @@
+[WIP]
+
+# NOTE
+
+The setting to **reuse game icons is required** for this pack to function:
+
+<img width="364" height="145" alt="image" src="https://github.com/user-attachments/assets/babef52d-c5ab-40d3-9881-925959b32d0e" />
+
 # UI-Remake
 
-[WIP]
 
 A close to 1 to 1 remake of the skills UI. This is made in an attempt to create a copy of the game's UI that allows for custom positions, while also reducing clutter from buffs that don't really need to be taking up space in the UI during combat. Only Boons and Conditions will be present.
 
@@ -76,4 +83,11 @@ As listed, the sizes you should use are:
 
 By default, all the interfaces have the original layout. If you want to customize it, it's recommended you **duplicate** the group (by right-clicking). That way, you can keep the original as a reference while editing.
 Most elements are grouped logically in a hierarchy. 
+
 Weapon and utility hotbars are shared. Same for health and endurance orbs. The element that will take the most time customizing will be the profession UI / Skills section, since this one differs from class to class. 
+
+Navigate the hierarchy to find the element or group you wanna move and place it wherever you want it to display. Reminder that positions are inherited, so if you move a parent, all children will move with it, keeping their own positions as offsets.
+
+# Settings
+
+A settings file is provided to style buffs to look as close to ingame as possible, with pretty stack markers and white duration bars instead of the default neon green. This is optional but highly recommended. It's only separate for users who may have customized their settings for other packs already.
