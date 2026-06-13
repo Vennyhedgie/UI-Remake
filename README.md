@@ -22,25 +22,37 @@ Examples of the default layout, a copy of the base UI:
 
 
 
-Examples of what can be achieved by moving elements around:
+
+Examples of what can be achieved by moving elements around, potentially improving **controller support**:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eca4b5a2-9136-4c8d-b44b-879be7db4d4d" />
-
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/172a4442-eb67-4936-be41-86bb35c795c5" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d095402-ee93-476c-9790-80f1103acd6b" />
 
 ## Disclaimer
 
 Because this is an overlay, these skills are not actual buttons. They will not be clickable in gameplay nor will they display tooltips. It is recommended you **hide** the skills UI and enable "Use Show ally names key bind" under **Dynamic HUD** in order to have a button you can hold to edit your skills or switch builds.
 
 **This is currently conisdered a BETA release, as some features are currently not replicable with the available Reffect tools. Notably:**
-- **Herald Upkeep skills are completely non-functional**. It is not recommended to use this while playing Herald. This is the only one that's currently a hard **unplayable**. **(Needs Reffect update)**
+- **Herald Upkeep energy pips are completely non-functional**. It is not recommended to use this pack while playing Herald. Other Revenant specs are OK. This is the only one that's currently a hard **unplayable**. **(Needs Reffect update)**
 - Parts of the pack will still be visible when in down state or defeated. **(Needs Reffect update)**
 - The endurance bar is represented as a separate orb at the moment, as radial wipes are currently not possible, making the radial endurance bar as it is displayed in the game is not possible. **(Needs Reffect update)**
 - Similarly, skills on cooldown will not have a radial black reveal, and instead will just be darkened out. However, all other skill state animations are implemented (casting, no resources, charge skills, etc.). **(Needs Reffect update)**
-- Ranger pet portraits. There is currently no filter for pet selections, thus portraits are displayed by tracking F2 skill ids. There's a couple of pets that share these skills, so the portrait will be inacurate (Black moa and Ravens for example). Also, only about 40% of the portraits have been added. There's like 100 different pets, still working on adding these but it's tedious, please bear with me!
-- The "Guard / Avoid Combat" button is not available.
-- In Beastmode, because the pet is not available to check for skills, portratis cannot be displayed. Additionally, Soulbeast's profession UI changes layout when merged / unmerged. This is not possible at the moment and thus will use the merged layout since you're mostly meant to stay in Beastmode. 
+
+### Ranger Issues
+
+The ranger UI is particularly intricate and due to Reffect missing active pet filters, so some compromises have been made. Pet F2 skill IDs are used to check your active pet to display portraits. Because of this, whenever the F2 skill is modified, these pet checks cannot be performed. However, most of those issues have been circumvented somehow, so I would still consider it playable just fine. These issues are:
+
+- There's a couple of pets that share the same F2 skills, so the portrait will be the same (Mostly Hall of Monument pets).
+- The "Guard / Avoid Combat" button is not available. This also applies to Mechanist. (You can still use F3 to recall your pet or toggle your default UI visibility to click this button).
+- In Beastmode, because the pet is not available to check for skills, portratis cannot be displayed. Additionally, Soulbeast's profession UI changes layout when merged / unmerged. This is not possible at the moment and thus Soulbeast will use the merged layout since you're mostly meant to stay in Beastmode.
+- On Untamed, when your pet is unleashed, it also cannot check skills. However, a glowing Unleashed Pet portrait will replace your pet's portrait when active, improving Unleashed state readability.
+<img width="762" height="217" alt="image" src="https://github.com/user-attachments/assets/9eb9b727-08c2-4273-a66d-be6c635e9a72" />
+<img width="823" height="244" alt="image" src="https://github.com/user-attachments/assets/108f16f6-3748-4935-8c0c-614d480d4451" />
+
 - Galeshot's feather generation timer bar is not available. **(Needs Reffect update)**
+  
+### Other minor issues
 - Troubadour's instrument duration bar caps at 5 seconds. **(Needs Reffect update)**
 - Luminary's shroud duration also caps at 5 seconds. **(Needs Reffect update)**
 
