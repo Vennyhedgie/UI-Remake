@@ -45,7 +45,6 @@ Because this is an overlay, these skills are not actual buttons. They will not b
 
 **This is currently conisdered a BETA release, as some features are currently not replicable with the available Reffect tools. Notably:**
 - **Herald Upkeep energy pips are completely non-functional**. It is not recommended to use this pack while playing Herald. Other Revenant specs are OK. This is the only one that's currently a hard **unplayable**. **(Needs Reffect update)**
-- Parts of the pack will still be visible when in down state or defeated. **(Needs Reffect update)**
 - The endurance bar is represented as a separate orb at the moment, as radial wipes are currently not possible, making the radial endurance bar as it is displayed in the game is not possible. **(Needs Reffect update)**
 - Similarly, skills on cooldown will not have a radial black reveal, and instead will just be darkened out. However, all other skill state animations are implemented (casting, no resources, charge skills, etc.). **(Needs Reffect update)**
 
@@ -67,6 +66,12 @@ The ranger UI is particularly intricate and due to Reffect missing active pet fi
 - Luminary's shroud duration also caps at 5 seconds. **(Needs Reffect update)**
 
 # How to use
+
+Download "Venny Clean UI.zip" into your reffect root folder and extract. It should add the necessary files to the icons and packs subfolders. An additional Settings file is provided for style that's also recommended to download. More details below.
+
+<img width="602" height="108" alt="image" src="https://github.com/user-attachments/assets/425ed5c1-993e-4219-b88b-19a325fd6d55" />
+
+If you have GW2 open, restart it to let Reffect reloadd the pack.
 
 Once the pack is installed, you'll have to **set the interface size that matches your current in-game interface size choice by Right clicking "Interface Normal" > Resize**:
 
@@ -91,3 +96,5 @@ Navigate the hierarchy to find the element or group you wanna move and place it 
 # Settings
 
 A settings file is provided to style buffs to look as close to ingame as possible, with pretty stack markers and white duration bars instead of the default neon green. This is optional but highly recommended. It's only separate for users who may have customized their settings for other packs already.
+
+<img width="123" height="55" alt="image" src="https://github.com/user-attachments/assets/9d546406-b656-45fd-9723-4d0209d8a5ee" />
