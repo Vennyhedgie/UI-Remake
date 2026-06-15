@@ -67,6 +67,8 @@ The ranger UI is particularly intricate and due to Reffect missing active pet fi
 
 # How to use
 
+This is a Reffect content pack. In order to use this you'll have to download Reffect (and therefore, Nexus) first. Please follow their setup instructions here: https://github.com/Zerthox/gw2-reffect
+
 Download "Venny Clean UI.zip" into your reffect root folder and extract. It should add the necessary files to the icons and packs subfolders. An additional Settings file is provided for style that's also recommended to download. More details below.
 
 <img width="602" height="108" alt="image" src="https://github.com/user-attachments/assets/425ed5c1-993e-4219-b88b-19a325fd6d55" />
