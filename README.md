@@ -72,7 +72,7 @@ This is a Reffect content pack. In order to use this you'll have to download Ref
 
 Download "Venny Clean UI.zip" into your reffect root folder and extract. It should add the necessary files to the icons and packs subfolders. An additional Settings file is provided for style that's also recommended to download. More details below.
 
-<img width="602" height="108" alt="image" src="https://github.com/user-attachments/assets/425ed5c1-993e-4219-b88b-19a325fd6d55" />
+<img width="652" height="141" alt="image" src="https://github.com/user-attachments/assets/1d2c3445-ed6e-4644-8dae-dd2f987661a7" />
 
 If you have GW2 open, restart it to let Reffect reloadd the pack.
 
