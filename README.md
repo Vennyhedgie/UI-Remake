@@ -45,8 +45,9 @@ Because this is an overlay, these skills are not actual buttons. They will not b
 
 **This is currently conisdered a BETA release, as some features are currently not replicable with the available Reffect tools. Notably:**
 - **Herald Upkeep energy pips are completely non-functional**. It is not recommended to use this pack while playing Herald. Other Revenant specs are OK. This is the only one that's currently a hard **unplayable**. **(Needs Reffect update)**
-- The endurance bar is represented as a separate orb at the moment, as radial wipes are currently not possible, making the radial endurance bar as it is displayed in the game is not possible. **(Needs Reffect update)**
+- The endurance bar is represented as a separate orb at the moment, as radial progress wipes are currently not possible, making the radial endurance bar as it is displayed in the game is not possible. **(Needs Reffect update)**
 - Similarly, skills on cooldown will not have a radial black reveal, and instead will just be darkened out. However, all other skill state animations are implemented (casting, no resources, charge skills, etc.). **(Needs Reffect update)**
+- Like Endurance, Druid's Astral Force bar is not replicable due to missing radial progress wipes. A regular bar is used instead, and the decoration UI will glow when available anyway. **(Needs Reffect update)**
 
 ### Ranger Issues
 
@@ -59,9 +60,9 @@ The ranger UI is particularly intricate and due to Reffect missing active pet fi
 <img width="762" height="217" alt="image" src="https://github.com/user-attachments/assets/9eb9b727-08c2-4273-a66d-be6c635e9a72" />
 <img width="823" height="244" alt="image" src="https://github.com/user-attachments/assets/108f16f6-3748-4935-8c0c-614d480d4451" />
 
-- Galeshot's feather generation timer bar is not available. **(Needs Reffect update)**
-  
 ### Other minor issues
+  
+- Galeshot's feather generation timer bar is not available. **(Needs Reffect update)**
 - Troubadour's instrument duration bar caps at 5 seconds. **(Needs Reffect update)**
 - Luminary's shroud duration also caps at 5 seconds. **(Needs Reffect update)**
 
