@@ -1,5 +1,7 @@
 [WIP]
 
+This is a Reffect content pack. In order to use this you'll have to download Reffect (and therefore, Nexus) first. Please follow their setup instructions here: https://github.com/Zerthox/gw2-reffect
+
 # NOTE
 
 The setting to **reuse game icons is required** for this pack to function:
@@ -43,19 +45,19 @@ Examples of what can be achieved by moving elements around, potentially improvin
 
 Because this is an overlay, these skills are not actual buttons. They will not be clickable in gameplay nor will they display tooltips. It is recommended you **hide** the skills UI and enable "Use Show ally names key bind" under **Dynamic HUD** in order to have a button you can hold to edit your skills or switch builds.
 
-**This is currently conisdered a BETA release, as some features are currently not replicable with the available Reffect tools. Notably:**
+**This is currently conisdered a BETA release, as some features cannot be replicated with the available Reffect tools. Notably:**
 - **Herald Upkeep energy pips are completely non-functional**. It is not recommended to use this pack while playing Herald. Other Revenant specs are OK. This is the only one that's currently a hard **unplayable**. **(Needs Reffect update)**
-- The endurance bar is represented as a separate orb at the moment, as radial progress wipes are currently not possible, making the radial endurance bar as it is displayed in the game is not possible. **(Needs Reffect update)**
+- The endurance bar is represented as a separate orb at the moment, as radial progress wipes are currently not possible, making the radial endurance bar as it is displayed in the game impossible to replicate. **(Needs Reffect update)**
 - Similarly, skills on cooldown will not have a radial black reveal, and instead will just be darkened out. However, all other skill state animations are implemented (casting, no resources, charge skills, etc.). **(Needs Reffect update)**
 - Like Endurance, Druid's Astral Force bar is not replicable due to missing radial progress wipes. A regular bar is used instead, and the decoration UI will glow when available anyway. **(Needs Reffect update)**
 
 ### Ranger Issues
 
-The ranger UI is particularly intricate and due to Reffect missing active pet filters, so some compromises have been made. Pet F2 skill IDs are used to check your active pet to display portraits. Because of this, whenever the F2 skill is modified, these pet checks cannot be performed. However, most of those issues have been circumvented somehow, so I would still consider it **playable just fine**. These issues are:
+The ranger UI is particularly intricate, and due to Reffect missing active pet filters, some compromises have been made. Pet F2 skill IDs are used to check your active pet to display portraits. Because of this, whenever the F2 skill is modified, these pet checks cannot be performed. However, most of those issues have been circumvented somehow, so I would still consider it **playable just fine**. These issues are:
 
 - There's a couple of pets that share the same F2 skills, so the portrait will be the same (Mostly Hall of Monument pets).
-- The "Guard / Avoid Combat" button is not available. This also applies to Mechanist. (You can still use F3 to recall your pet or toggle your default UI visibility to click this button).
-- In Beastmode, because the pet is not available to check for skills, portratis cannot be displayed. Additionally, Soulbeast's profession UI changes layout when merged / unmerged. This is not possible at the moment and thus Soulbeast will use the merged layout since you're mostly meant to stay in Beastmode.
+- The "Guard / Avoid Combat" button is not available. *This also applies to Mechanist.* (You can still use F3 to recall your pet or toggle your default UI visibility to click this button).
+- In Beastmode, because the pet is not available to check for skills, portratis cannot be displayed. Additionally, Soulbeast's profession UI changes layout when merged / unmerged. This cannot be replicated in Reffect and thus Soulbeast will use the merged layout by default, since you're mostly meant to stay in Beastmode.
 - On Untamed, when your pet is unleashed, it also cannot check skills. However, a glowing Unleashed Pet portrait will replace your pet's portrait when active, improving Unleashed state readability.
 <img width="762" height="217" alt="image" src="https://github.com/user-attachments/assets/9eb9b727-08c2-4273-a66d-be6c635e9a72" />
 <img width="823" height="244" alt="image" src="https://github.com/user-attachments/assets/108f16f6-3748-4935-8c0c-614d480d4451" />
@@ -65,10 +67,9 @@ The ranger UI is particularly intricate and due to Reffect missing active pet fi
 - Galeshot's feather generation timer bar is not available. **(Needs Reffect update)**
 - Troubadour's instrument duration bar caps at 5 seconds. **(Needs Reffect update)**
 - Luminary's shroud duration also caps at 5 seconds. **(Needs Reffect update)**
+- The weapon swap button is not greyed out for Elementalists and Engineers when in combat. This is to prevent "Stow weapon" icons from being covered.
 
 # How to use
-
-This is a Reffect content pack. In order to use this you'll have to download Reffect (and therefore, Nexus) first. Please follow their setup instructions here: https://github.com/Zerthox/gw2-reffect
 
 Download "Venny Clean UI.zip" into your reffect root folder and extract. It should add the necessary files to the icons and packs subfolders. An additional Settings file is provided for style that's also recommended to download. More details below.
 
@@ -92,9 +93,11 @@ As listed, the sizes you should use are:
 By default, all the interfaces have the original layout. If you want to customize it, it's recommended you **duplicate** the group (by right-clicking). That way, you can keep the original as a reference while editing.
 Most elements are grouped logically in a hierarchy. 
 
-Weapon and utility hotbars are shared. Same for health and endurance orbs. The element that will take the most time customizing will be the profession UI / Skills section, since this one differs from class to class. 
+<img width="551" height="188" alt="image" src="https://github.com/user-attachments/assets/b96ece79-44fd-46b7-819a-7edc2ec10db1" />
 
 Navigate the hierarchy to find the element or group you wanna move and place it wherever you want it to display. Reminder that positions are inherited, so if you move a parent, all children will move with it, keeping their own positions as offsets.
+
+Weapon and utility hotbars are shared between all classes. Same for health and endurance orbs. The element that will take the most time customizing will be the profession UI / Skills section, since this one differs from class to class. 
 
 # Settings
 
